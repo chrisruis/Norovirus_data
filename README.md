@@ -1,6 +1,19 @@
 # Norovirus_data
 Files used in "Preadaptation of pandemic GII.4 noroviruses in unsampled virus reservoirs years before emergence"
 
+## alignments_trees directory
+Contains sequence alignments and phylogenetic trees for each dataset. Sequences are named with these fields separated by underscores:
+* Accession number
+* Host species (Hu is human)
+* RdRp genotype
+* VP1 genotype
+* Country
+* Collection date
+
+File names match between the corresponding alignments and trees
+
+all_GII.4_VP1.fasta and all_GII.4_VP1.nwk - 2198 VP1 (capsid) sequences from all GII.4 variants. This dataset was used to represent the phylogenetic relationships between variants and reconstruct VP1 substitutions across the evolutionary history of GII.4
+
 # Alignments
 all_GII4_VP1.fasta - contains 2198 VP1 (capsid) sequences from all GII.4 variants. Used to reconstruct a phylogenetic tree containing all GII.4 variants and reconstruct VP1 substitutions across the tree
 
